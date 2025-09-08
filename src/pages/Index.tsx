@@ -251,11 +251,12 @@ const Index = () => {
         </div>
       </div>
 
-      <Button asChild size="lg" className="btn-gold text-lg sm:text-xl px-6 sm:px-12 py-4 mx-auto">
-        <Link to="/contact" className="flex items-center justify-center">
-        Schedule Your Strategy Call
-        <ArrowRight className="h-6 w-6 ml-3" /></Link>
-        </Button>
+      <Button asChild size="lg" className="btn-gold mx-auto">
+  <Link to="/contact" className="flex items-center justify-center">
+    Schedule Your Strategy Call
+    <ArrowRight className="h-6 w-6 ml-3" />
+  </Link>
+</Button>
 
 
       <p className="text-sm text-muted-foreground mt-6">
