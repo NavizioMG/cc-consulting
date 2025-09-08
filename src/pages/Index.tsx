@@ -251,12 +251,13 @@ const Index = () => {
               </div>
             </div>
 
-            <Button asChild size="lg" className="btn-gold text-xl px-12 py-4">
+            <Button asChild size="lg" className="btn-gold text-lg sm:text-xl px-6 sm:px-12 py-4">
               <Link to="/contact">
-                Schedule Your Strategy Call
-                <ArrowRight className="h-6 w-6 ml-3" />
+                 Schedule Your Strategy Call
+                 <ArrowRight className="h-6 w-6 ml-3" />
               </Link>
             </Button>
+
 
             <p className="text-sm text-muted-foreground mt-6">
               Join 50+ successful roofing contractors who have transformed their businesses with Castle Crest.

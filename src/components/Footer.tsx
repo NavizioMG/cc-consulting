@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/7e77d078-a5ef-4e61-af0e-75af55674255.png" 
+                src="/images/cc_consulting_logo.png" 
                 alt="Company Crest" 
                 className="h-12 w-12"
               />
@@ -71,7 +71,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 RoofCrest Consulting. All rights reserved.
+            © 2025 RoofCrest Consulting. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground mt-4 md:mt-0">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
