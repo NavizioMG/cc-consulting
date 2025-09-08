@@ -225,46 +225,50 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-hero">
-        <div className="container mx-auto px-4">
-          <div className="card-elegant p-12 text-center max-w-4xl mx-auto">
-            <h2 className="heading-serif text-4xl font-bold mb-6">
-              Ready to Build Your <span className="text-gradient-gold">Roofing Empire</span>?
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Schedule your complimentary strategy session and discover how we can accelerate your growth, 
-              optimize your operations, and maximize your profitability.
-            </p>
-            
-            <div className="grid md:grid-cols-3 gap-6 mb-8 text-sm">
-              <div className="flex items-center justify-center space-x-2">
-                <CheckCircle className="h-5 w-5 text-primary" />
-                <span>30-minute strategy session</span>
-              </div>
-              <div className="flex items-center justify-center space-x-2">
-                <CheckCircle className="h-5 w-5 text-primary" />
-                <span>Custom growth roadmap</span>
-              </div>
-              <div className="flex items-center justify-center space-x-2">
-                <CheckCircle className="h-5 w-5 text-primary" />
-                <span>No obligation required</span>
-              </div>
-            </div>
-
-            <Button asChild size="lg" className="btn-gold text-lg sm:text-xl px-6 sm:px-12 py-4">
-              <Link to="/contact">
-                 Schedule Your Strategy Call
-                 <ArrowRight className="h-6 w-6 ml-3" />
-              </Link>
-            </Button>
-
-
-            <p className="text-sm text-muted-foreground mt-6">
-              Join 50+ successful roofing contractors who have transformed their businesses with Castle Crest.
-            </p>
-          </div>
+<section className="py-20 bg-gradient-hero">
+  <div className="container mx-auto px-4">
+    <div className="card-elegant p-12 text-center max-w-4xl mx-auto">
+      <h2 className="heading-serif text-4xl font-bold mb-6">
+        Ready to Build Your <span className="text-gradient-gold">Roofing Empire</span>?
+      </h2>
+      <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+        Schedule your complimentary strategy session and discover how we can accelerate your growth, 
+        optimize your operations, and maximize your profitability.
+      </p>
+      
+      <div className="grid md:grid-cols-3 gap-6 mb-8 text-sm">
+        <div className="flex items-center justify-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-primary" />
+          <span>30-minute strategy session</span>
         </div>
-      </section>
+        <div className="flex items-center justify-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-primary" />
+          <span>Custom growth roadmap</span>
+        </div>
+        <div className="flex items-center justify-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-primary" />
+          <span>No obligation required</span>
+        </div>
+      </div>
+
+      <Button 
+        asChild 
+        size="lg" 
+        className="btn-gold text-lg sm:text-xl px-6 sm:px-12 py-4 mx-auto block"
+      >
+        <Link to="/contact">
+          Schedule Your Strategy Call
+          <ArrowRight className="h-6 w-6 ml-3" />
+        </Link>
+      </Button>
+
+      <p className="text-sm text-muted-foreground mt-6">
+        Join 50+ successful roofing contractors who have transformed their businesses with Castle Crest.
+      </p>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
